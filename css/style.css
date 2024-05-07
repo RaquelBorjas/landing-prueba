@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+	--color-dorado: #EDB44D;
+	--color-general: #adb0b8;
+	--color-titulos: #dbdce4;
+	--fondo-negro: #09090d;
+	--fondo-azul: #101117;
+	--fondo-features: #121520;
+	--fondo-footer: #040406;
+	--color-footer: #373946;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: var(--color-general);
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+#hero-title{
+	padding: 15% 10%;
+	background-color:var(--fondo-negro);
+}
+
+#hero-title h5{
+	font-weight: 200;
+	color: var(--color-dorado);
+}
+
+#hero-title h1{
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.btn-base{
+	background-color: var(--color-footer);
+	color: #fff;
+	border-radius: 40px;
+	font-size: 10px;
+	font-weight: 500;
+}
+
+#features-one{
+	padding: 15% 10%;
+	background-color:var(--fondo-azul);
+}
+
+#features-dos{
+	padding: 15% 10%;
+	background-color:var(--fondo-features);
+}
+
+.capa-tell1{
+	position: absolute;
+	top: 30%;
+	right: 0px;
+}
+
+
+#features1{
+	background-color: var(--fondo-azul);
+	padding: 5% 0;
+}
+#features1 i{
+	font-size: 50px;
+	background-color: var(--color-dorado);
+	padding: 10px;
+	color: var(--color-titulos);
+	border-radius: 100%;
+	margin-left: 0%;
+}
+.right-text{
+	text-align: right;
+}
+
+#features2{
+	background-color: var(--fondo-features);
+
+}
+#features2 i{
+	font-size: 50px;
+	padding: 10px;
+	color: var(--color-dorado);
+}
+#features2 img{
+	height: 60%;
+}
+	
+	
+
+#features-one{
+	text-align: center;
+	padding: 10% 5%;
+}
+#features-one h2{
+	font-weight: 700;
+}
+
+.texto-features{
+	padding: 5%;
+}
+
+.icons-cool i{
+	font-size: 120px;
+}
+
+.texto-features2{
+	text-align: left;
+}
+
+.btn-subscribe{
+	border-radius: 40px;
+	border: 2px solid var(--color-general);
+	color:var(--color-general);
+	
+}
+
+#subscribe{
+	background-color: var(--fondo-azul);
+	text-align: center;
+	padding: 5%;
+}
+#subscribe iconos{
+	font-size: 150px;
+}
+#subscribe h4{
+	font-weight: 700;
+	padding: 5%;
+}
+
+.btn-send{
+	background-color: var(--color-dorado);
+	color: #fff; var(--color-)
+	border-radius: 40px;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 2% 0;
+	text-align: center;
+}
+
+
+
